@@ -64,6 +64,7 @@ void add(DoubleLinkedList* List)
     else
     {
         newNode->prev = List->tail;
+        newNode->next = NULL;
         List->tail->next = newNode;
         List->tail = newNode;
     }
