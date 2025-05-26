@@ -87,7 +87,7 @@ Node* find(DoubleLinkedList* List)
     if(current == NULL)
     {
         printf("there is no Subscriber with that second name\n");
-        exit(1);
+        return 0;
     }
 }
 
